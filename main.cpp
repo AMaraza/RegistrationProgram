@@ -1,10 +1,10 @@
 #include <iostream>
 #include <fstream>
 
-struct loginStruct{
+/*struct loginStruct{
     std::string user;
     std::string password;
-};
+};*/
 
 void registerUser(std::string &username, std::string &password, int &users);
 void login(std::string &username, std::string &password);
